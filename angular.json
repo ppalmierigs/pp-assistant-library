@@ -1,0 +1,39 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "pp-assistant-library": {
+      "projectType": "library",
+      "root": "projects/pp-assistant-library",
+      "sourceRoot": "projects/pp-assistant-library/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/pp-assistant-library/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/pp-assistant-library/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/pp-assistant-library/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/pp-assistant-library/src/test.ts",
+            "tsConfig": "projects/pp-assistant-library/tsconfig.spec.json",
+            "karmaConfig": "projects/pp-assistant-library/karma.conf.js"
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "pp-assistant-library"
+}
