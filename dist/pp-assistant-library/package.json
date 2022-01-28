@@ -1,0 +1,23 @@
+{
+  "name": "pp-assistant-library",
+  "version": "0.0.4",
+  "peerDependencies": {
+    "@angular/common": "^12.2.0",
+    "@angular/core": "^12.2.0",
+    "primeicons": "^5.0.0",
+    "primeng": "^12.1.0-rc.1",
+    "@angular/animations": "^8.1.3",
+    "@angular/cdk": "^8.1.1",
+    "@angular/material": "^8.1.1"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "main": "bundles/pp-assistant-library.umd.js",
+  "module": "fesm2015/pp-assistant-library.js",
+  "es2015": "fesm2015/pp-assistant-library.js",
+  "esm2015": "esm2015/pp-assistant-library.js",
+  "fesm2015": "fesm2015/pp-assistant-library.js",
+  "typings": "pp-assistant-library.d.ts",
+  "sideEffects": false
+}
