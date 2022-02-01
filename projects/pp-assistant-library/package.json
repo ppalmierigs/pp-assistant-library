@@ -1,9 +1,11 @@
 {
   "name": "pp-assistant-library",
-  "version": "0.0.5",
+  "version": "0.0.15",
   "peerDependencies": {
     "@angular/common": "^12.2.0",
-    "@angular/core": "^12.2.0"
+    "@angular/core": "^12.2.0",
+    "primeicons": "^5.0.0",
+    "primeng": "^12.1.0-rc.1"
   },
   "dependencies": {
     "tslib": "^2.3.0"

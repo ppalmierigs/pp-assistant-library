@@ -5,7 +5,7 @@ import { PpAssistantLibraryComponent } from './pp-assistant-library.component';
 
 @NgModule({
   declarations: [
-    PpAssistantLibraryComponent,
+    PpAssistantLibraryComponent
   ],
   imports: [
   ],
