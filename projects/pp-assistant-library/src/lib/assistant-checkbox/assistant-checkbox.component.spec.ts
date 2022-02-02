@@ -1,7 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { AssistantCheckboxComponent } from './assistant-checkbox.component';
-
+ 
 describe('AssistantCheckboxComponent', () => {
   let component: AssistantCheckboxComponent;
   let fixture: ComponentFixture<AssistantCheckboxComponent>;

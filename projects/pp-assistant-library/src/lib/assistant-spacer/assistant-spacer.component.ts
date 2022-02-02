@@ -1,6 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { AssistantCoreBaseComponent } from '../assistant-core-base/assistant-core-base.component';
-
+ 
 @Component({
   selector: 'lib-assistant-spacer',
   templateUrl: './assistant-spacer.component.html',

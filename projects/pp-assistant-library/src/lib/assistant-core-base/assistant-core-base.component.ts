@@ -1,5 +1,5 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
-
+ 
 @Component({
   selector: 'lib-assistant-core-base',
   templateUrl: './assistant-core-base.component.html',

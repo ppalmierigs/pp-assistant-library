@@ -13,5 +13,5 @@ import { PpAssistantLibraryComponent } from './pp-assistant-library.component';
     PpAssistantLibraryComponent
   ]
 })
-export class PpAssistantLibraryModule { }
+export class PpAssistantLibraryModule { } 
 

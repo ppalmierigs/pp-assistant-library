@@ -6,7 +6,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { CheckboxModule } from 'primeng/checkbox';
 import { AssistantSpacerModule } from '../assistant-spacer/assistant-spacer.module';
 import { AssistantCheckboxComponent } from './assistant-checkbox.component';
-
+ 
 
 
 @NgModule({
