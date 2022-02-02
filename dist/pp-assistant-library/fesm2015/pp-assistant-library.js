@@ -8,48 +8,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import * as i1 from 'primeng/checkbox';
 import { CheckboxModule } from 'primeng/checkbox';
 
-class PpAssistantLibraryComponent {
-    constructor() { }
-    ngOnInit() {
-    }
-}
-PpAssistantLibraryComponent.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.2.16", ngImport: i0, type: PpAssistantLibraryComponent, deps: [], target: i0.ɵɵFactoryTarget.Component });
-PpAssistantLibraryComponent.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "12.0.0", version: "12.2.16", type: PpAssistantLibraryComponent, selector: "lib-pp-assistant-library", ngImport: i0, template: `
-    <p>
-      pp-assistant-library works!
-    </p>
-  `, isInline: true });
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.2.16", ngImport: i0, type: PpAssistantLibraryComponent, decorators: [{
-            type: Component,
-            args: [{
-                    selector: 'lib-pp-assistant-library',
-                    template: `
-    <p>
-      pp-assistant-library works!
-    </p>
-  `,
-                    styles: []
-                }]
-        }], ctorParameters: function () { return []; } });
-
-class PpAssistantLibraryModule {
-}
-PpAssistantLibraryModule.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.2.16", ngImport: i0, type: PpAssistantLibraryModule, deps: [], target: i0.ɵɵFactoryTarget.NgModule });
-PpAssistantLibraryModule.ɵmod = i0.ɵɵngDeclareNgModule({ minVersion: "12.0.0", version: "12.2.16", ngImport: i0, type: PpAssistantLibraryModule, declarations: [PpAssistantLibraryComponent], exports: [PpAssistantLibraryComponent] });
-PpAssistantLibraryModule.ɵinj = i0.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "12.2.16", ngImport: i0, type: PpAssistantLibraryModule, imports: [[]] });
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.2.16", ngImport: i0, type: PpAssistantLibraryModule, decorators: [{
-            type: NgModule,
-            args: [{
-                    declarations: [
-                        PpAssistantLibraryComponent
-                    ],
-                    imports: [],
-                    exports: [
-                        PpAssistantLibraryComponent
-                    ]
-                }]
-        }] });
-
 class AssistantIconComponent {
     constructor() { }
     ngOnInit() {
@@ -62,7 +20,7 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.2.16", ngImpo
             args: [{
                     selector: 'lib-assistant-icon',
                     templateUrl: './assistant-icon.component.html',
-                    styleUrls: ['./assistant-icon.component.css']
+                    styleUrls: ['./assistant-icon.component.scss']
                 }]
         }], ctorParameters: function () { return []; } });
 
@@ -181,7 +139,7 @@ class AssistantCoreBaseComponent {
     }
 }
 AssistantCoreBaseComponent.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.2.16", ngImport: i0, type: AssistantCoreBaseComponent, deps: [], target: i0.ɵɵFactoryTarget.Component });
-AssistantCoreBaseComponent.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "12.0.0", version: "12.2.16", type: AssistantCoreBaseComponent, selector: "lib-assistant-core-base", inputs: { loading: "loading", disabled: "disabled", type: "type", size: "size", radius: "radius", padding: "padding", rotation: "rotation", icon: "icon", tooltip: "tooltip", placeholder: "placeholder", autocomplete: "autocomplete", control: "control", kind: "kind", required: "required", key: "key", label: "label", labelSize: "labelSize", inputSize: "inputSize", title: "title", titleSize: "titleSize", description: "description", descriptionSize: "descriptionSize", fontColor: "fontColor", fontSize: "fontSize", uppercase: "uppercase", bold: "bold", conceal: "conceal", i18nLabel: "i18nLabel", wrap: "wrap", contentAlign: "contentAlign", clickable: "clickable", hideBodySidePadding: "hideBodySidePadding", hideBodyVPadding: "hideBodyVPadding", leftSize: "leftSize", verticalExcess: "verticalExcess", ellipsis: "ellipsis", maxWidth: "maxWidth", minWidth: "minWidth", isLoading: "isLoading", itemDirection: "itemDirection", border: "border", groupName: "groupName", labelSide: "labelSide", canMinimize: "canMinimize", noData: "noData", noDataLabel: "noDataLabel" }, outputs: { click: "click", change: "change" }, ngImport: i0, template: "<p>assistant-core-base works!</p>\n", styles: [""] });
+AssistantCoreBaseComponent.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "12.0.0", version: "12.2.16", type: AssistantCoreBaseComponent, selector: "lib-assistant-core-base", inputs: { loading: "loading", disabled: "disabled", type: "type", size: "size", radius: "radius", padding: "padding", rotation: "rotation", icon: "icon", tooltip: "tooltip", placeholder: "placeholder", autocomplete: "autocomplete", control: "control", kind: "kind", required: "required", key: "key", label: "label", labelSize: "labelSize", inputSize: "inputSize", title: "title", titleSize: "titleSize", description: "description", descriptionSize: "descriptionSize", fontColor: "fontColor", fontSize: "fontSize", uppercase: "uppercase", bold: "bold", conceal: "conceal", i18nLabel: "i18nLabel", wrap: "wrap", contentAlign: "contentAlign", clickable: "clickable", hideBodySidePadding: "hideBodySidePadding", hideBodyVPadding: "hideBodyVPadding", leftSize: "leftSize", verticalExcess: "verticalExcess", ellipsis: "ellipsis", maxWidth: "maxWidth", minWidth: "minWidth", isLoading: "isLoading", itemDirection: "itemDirection", border: "border", groupName: "groupName", labelSide: "labelSide", canMinimize: "canMinimize", noData: "noData", noDataLabel: "noDataLabel" }, outputs: { click: "click", change: "change" }, ngImport: i0, template: "", styles: [""] });
 i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.2.16", ngImport: i0, type: AssistantCoreBaseComponent, decorators: [{
             type: Component,
             args: [{
@@ -290,7 +248,7 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.2.16", ngImpo
 class AssistantSpacerComponent extends AssistantCoreBaseComponent {
 }
 AssistantSpacerComponent.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.2.16", ngImport: i0, type: AssistantSpacerComponent, deps: null, target: i0.ɵɵFactoryTarget.Component });
-AssistantSpacerComponent.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "12.0.0", version: "12.2.16", type: AssistantSpacerComponent, selector: "lib-assistant-spacer", usesInheritance: true, ngImport: i0, template: "<span class=\"assistant-spacer\">\n    <span class=\"assistant-s-{{ size }}\"></span>\n </span>\n ", styles: [":host ::ng-deep .assistant-spacer .assistant-s-xxs,:host ::ng-deep .assistant-spacer .assistant-s-xs,:host ::ng-deep .assistant-spacer .assistant-s-s,:host ::ng-deep .assistant-spacer .assistant-s-m,:host ::ng-deep .assistant-spacer .assistant-s-l,:host ::ng-deep .assistant-spacer .assistant-s-xl,:host ::ng-deep .assistant-spacer .assistant-s-xxl{display:inline-flex}:host ::ng-deep .assistant-spacer .assistant-s-xxs{min-width:3px;min-height:3px;width:3px;height:3px;max-width:3px;max-height:3px}:host ::ng-deep .assistant-spacer .assistant-s-xs{min-width:5px;min-height:5px;width:5px;height:5px;max-width:5px;max-height:5px}:host ::ng-deep .assistant-spacer .assistant-s-s{min-width:10px;min-height:10px;width:10px;height:10px;max-width:10px;max-height:10px}:host ::ng-deep .assistant-spacer .assistant-s-m{min-width:15px;min-height:15px;width:15px;height:15px;max-width:15px;max-height:15px}:host ::ng-deep .assistant-spacer .assistant-s-l{min-width:20px;min-height:20px;width:20px;height:20px;max-width:20px;max-height:20px}:host ::ng-deep .assistant-spacer .assistant-s-xl{min-width:25px;min-height:25px;width:25px;height:25px;max-width:25px;max-height:25px}:host ::ng-deep .assistant-spacer .assistant-s-xxl{min-width:30px;min-height:30px;width:30px;height:30px;max-width:30px;max-height:30px}\n"] });
+AssistantSpacerComponent.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "12.0.0", version: "12.2.16", type: AssistantSpacerComponent, selector: "lib-assistant-spacer", usesInheritance: true, ngImport: i0, template: "<span class=\"assistant-spacer\">\n    <span class=\"assistant-s-{{ size }}\"></span> \n </span>\n ", styles: [":host ::ng-deep .assistant-spacer .assistant-s-xxs,:host ::ng-deep .assistant-spacer .assistant-s-xs,:host ::ng-deep .assistant-spacer .assistant-s-s,:host ::ng-deep .assistant-spacer .assistant-s-m,:host ::ng-deep .assistant-spacer .assistant-s-l,:host ::ng-deep .assistant-spacer .assistant-s-xl,:host ::ng-deep .assistant-spacer .assistant-s-xxl{display:inline-flex}:host ::ng-deep .assistant-spacer .assistant-s-xxs{min-width:3px;min-height:3px;width:3px;height:3px;max-width:3px;max-height:3px}:host ::ng-deep .assistant-spacer .assistant-s-xs{min-width:5px;min-height:5px;width:5px;height:5px;max-width:5px;max-height:5px}:host ::ng-deep .assistant-spacer .assistant-s-s{min-width:10px;min-height:10px;width:10px;height:10px;max-width:10px;max-height:10px}:host ::ng-deep .assistant-spacer .assistant-s-m{min-width:15px;min-height:15px;width:15px;height:15px;max-width:15px;max-height:15px}:host ::ng-deep .assistant-spacer .assistant-s-l{min-width:20px;min-height:20px;width:20px;height:20px;max-width:20px;max-height:20px}:host ::ng-deep .assistant-spacer .assistant-s-xl{min-width:25px;min-height:25px;width:25px;height:25px;max-width:25px;max-height:25px}:host ::ng-deep .assistant-spacer .assistant-s-xxl{min-width:30px;min-height:30px;width:30px;height:30px;max-width:30px;max-height:30px}\n"] });
 i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.2.16", ngImport: i0, type: AssistantSpacerComponent, decorators: [{
             type: Component,
             args: [{
@@ -317,7 +275,7 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.2.16", ngImpo
 class AssistantCheckboxComponent extends AssistantCoreBaseComponent {
 }
 AssistantCheckboxComponent.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.2.16", ngImport: i0, type: AssistantCheckboxComponent, deps: null, target: i0.ɵɵFactoryTarget.Component });
-AssistantCheckboxComponent.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "12.0.0", version: "12.2.16", type: AssistantCheckboxComponent, selector: "lib-assistant-checkbox", usesInheritance: true, ngImport: i0, template: "<div class=\"assistant-checkbox\">\n    <div [ngClass]=\"{ 'assistant-cb-label-left': labelSide === 'left' }\">\n       <p-checkbox value=\"{{ key }}\" styleClass=\"assistant-cb-{{ type }} assistant-cb-size-{{ size }}\" ></p-checkbox>\n       <lib-assistant-spacer size=\"m\"></lib-assistant-spacer>\n    </div>\n </div>\n ", styles: [":host ::ng-deep .assistant-checkbox{display:flex}:host ::ng-deep .assistant-checkbox .assistant-cb-label-left{display:flex;flex-direction:row-reverse!important}:host ::ng-deep .assistant-checkbox .assistant-cb-primary .p-checkbox-box{border-radius:13px!important;border:2px solid #003b9a!important}:host ::ng-deep .assistant-checkbox .assistant-cb-primary .p-highlight{background:#003b9a!important}:host ::ng-deep .assistant-checkbox .assistant-cb-secondary .p-checkbox-box{border-radius:13px!important;border:2px solid #bacae4!important}:host ::ng-deep .assistant-checkbox .assistant-cb-secondary .p-highlight{background:#bacae4!important}:host ::ng-deep .assistant-checkbox .assistant-cb-third .p-checkbox-box{border-radius:13px!important;border:2px solid #4339f2!important}:host ::ng-deep .assistant-checkbox .assistant-cb-third .p-highlight{background:#4339f2!important}:host ::ng-deep .assistant-checkbox .assistant-cb-alert .p-checkbox-box{border-radius:13px!important;border:2px solid #ff3a29!important}:host ::ng-deep .assistant-checkbox .assistant-cb-alert .p-highlight{background:#ff3a29!important}:host ::ng-deep .assistant-checkbox .assistant-cb-confirm .p-checkbox-box{border-radius:13px!important;border:2px solid #299cff!important}:host ::ng-deep .assistant-checkbox .assistant-cb-confirm .p-highlight{background:#299cff!important}:host ::ng-deep .assistant-checkbox .assistant-cb-other .p-checkbox-box{border-radius:13px!important;border:2px solid #dad7fe!important}:host ::ng-deep .assistant-checkbox .assistant-cb-other .p-highlight{background:#dad7fe!important}:host ::ng-deep .assistant-checkbox .assistant-cb-size-xxs .p-checkbox-box{padding:4px!important}:host ::ng-deep .assistant-checkbox .assistant-cb-size-xs .p-checkbox-box{padding:5px!important}:host ::ng-deep .assistant-checkbox .assistant-cb-size-s .p-checkbox-box{padding:10px!important}:host ::ng-deep .assistant-checkbox .assistant-cb-size-m .p-checkbox-box{padding:15px!important}:host ::ng-deep .assistant-checkbox .assistant-cb-size-l .p-checkbox-box{padding:20px!important}:host ::ng-deep .assistant-checkbox .assistant-cb-size-xl .p-checkbox-box{padding:25px!important}:host ::ng-deep .assistant-checkbox .assistant-cb-size-xxl .p-checkbox-box{padding:30px!important}\n"], components: [{ type: i1.Checkbox, selector: "p-checkbox", inputs: ["value", "name", "disabled", "binary", "label", "ariaLabelledBy", "ariaLabel", "tabindex", "inputId", "style", "styleClass", "labelStyleClass", "formControl", "checkboxIcon", "readonly", "required", "trueValue", "falseValue"], outputs: ["onChange"] }, { type: AssistantSpacerComponent, selector: "lib-assistant-spacer" }], directives: [{ type: i3.NgClass, selector: "[ngClass]", inputs: ["class", "ngClass"] }] });
+AssistantCheckboxComponent.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "12.0.0", version: "12.2.16", type: AssistantCheckboxComponent, selector: "lib-assistant-checkbox", usesInheritance: true, ngImport: i0, template: "<div class=\"assistant-checkbox\">\n    <div [ngClass]=\"{ 'assistant-cb-label-left': labelSide === 'left' }\">\n       <p-checkbox value=\"{{ key }}\" styleClass=\"assistant-cb-{{ type }} assistant-cb-size-{{ size }}\" ></p-checkbox>\n       <lib-assistant-spacer size=\"m\"></lib-assistant-spacer>\n    </div>\n </div> \n ", styles: [":host ::ng-deep .assistant-checkbox{display:flex}:host ::ng-deep .assistant-checkbox .assistant-cb-label-left{display:flex;flex-direction:row-reverse!important}:host ::ng-deep .assistant-checkbox .assistant-cb-primary .p-checkbox-box{border-radius:13px!important;border:2px solid #003b9a!important}:host ::ng-deep .assistant-checkbox .assistant-cb-primary .p-highlight{background:#003b9a!important}:host ::ng-deep .assistant-checkbox .assistant-cb-secondary .p-checkbox-box{border-radius:13px!important;border:2px solid #bacae4!important}:host ::ng-deep .assistant-checkbox .assistant-cb-secondary .p-highlight{background:#bacae4!important}:host ::ng-deep .assistant-checkbox .assistant-cb-third .p-checkbox-box{border-radius:13px!important;border:2px solid #4339f2!important}:host ::ng-deep .assistant-checkbox .assistant-cb-third .p-highlight{background:#4339f2!important}:host ::ng-deep .assistant-checkbox .assistant-cb-alert .p-checkbox-box{border-radius:13px!important;border:2px solid #ff3a29!important}:host ::ng-deep .assistant-checkbox .assistant-cb-alert .p-highlight{background:#ff3a29!important}:host ::ng-deep .assistant-checkbox .assistant-cb-confirm .p-checkbox-box{border-radius:13px!important;border:2px solid #299cff!important}:host ::ng-deep .assistant-checkbox .assistant-cb-confirm .p-highlight{background:#299cff!important}:host ::ng-deep .assistant-checkbox .assistant-cb-other .p-checkbox-box{border-radius:13px!important;border:2px solid #dad7fe!important}:host ::ng-deep .assistant-checkbox .assistant-cb-other .p-highlight{background:#dad7fe!important}:host ::ng-deep .assistant-checkbox .assistant-cb-size-xxs .p-checkbox-box{padding:4px!important}:host ::ng-deep .assistant-checkbox .assistant-cb-size-xs .p-checkbox-box{padding:5px!important}:host ::ng-deep .assistant-checkbox .assistant-cb-size-s .p-checkbox-box{padding:10px!important}:host ::ng-deep .assistant-checkbox .assistant-cb-size-m .p-checkbox-box{padding:15px!important}:host ::ng-deep .assistant-checkbox .assistant-cb-size-l .p-checkbox-box{padding:20px!important}:host ::ng-deep .assistant-checkbox .assistant-cb-size-xl .p-checkbox-box{padding:25px!important}:host ::ng-deep .assistant-checkbox .assistant-cb-size-xxl .p-checkbox-box{padding:30px!important}\n"], components: [{ type: i1.Checkbox, selector: "p-checkbox", inputs: ["value", "name", "disabled", "binary", "label", "ariaLabelledBy", "ariaLabel", "tabindex", "inputId", "style", "styleClass", "labelStyleClass", "formControl", "checkboxIcon", "readonly", "required", "trueValue", "falseValue"], outputs: ["onChange"] }, { type: AssistantSpacerComponent, selector: "lib-assistant-spacer" }], directives: [{ type: i3.NgClass, selector: "[ngClass]", inputs: ["class", "ngClass"] }] });
 i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.2.16", ngImport: i0, type: AssistantCheckboxComponent, decorators: [{
             type: Component,
             args: [{
@@ -353,5 +311,5 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.2.16", ngImpo
  * Generated bundle index. Do not edit.
  */
 
-export { AssistantCheckboxComponent, AssistantCheckboxModule, AssistantIconComponent, AssistantIconModule, AssistantSpacerComponent, AssistantSpacerModule, PpAssistantLibraryComponent, PpAssistantLibraryModule };
+export { AssistantCheckboxComponent, AssistantCheckboxModule, AssistantIconComponent, AssistantIconModule, AssistantSpacerComponent, AssistantSpacerModule };
 //# sourceMappingURL=pp-assistant-library.js.map

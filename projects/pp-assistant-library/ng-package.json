@@ -6,6 +6,5 @@
     "umdModuleIds": {
       "primeng/checkbox": "primeng/checkbox"
     }
-  },
-  "assets": ["./styles/**/*.scss"]
+  }
 }
