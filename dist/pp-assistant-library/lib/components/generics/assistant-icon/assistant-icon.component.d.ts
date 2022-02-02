@@ -4,5 +4,5 @@ export declare class AssistantIconComponent implements OnInit {
     constructor();
     ngOnInit(): void;
     static ɵfac: i0.ɵɵFactoryDeclaration<AssistantIconComponent, never>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<AssistantIconComponent, "lib-assistant-icon", never, {}, {}, never, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<AssistantIconComponent, "assistant-icon", never, {}, {}, never, never>;
 }

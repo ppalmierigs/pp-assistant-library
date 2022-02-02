@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 
 @Component({
-  selector: 'lib-assistant-icon',
+  selector: 'assistant-icon',
   templateUrl: './assistant-icon.component.html',
   styleUrls: ['./assistant-icon.component.scss']
 })
