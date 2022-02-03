@@ -1,7 +1,7 @@
 <div class="assistant-checkbox">
-    <div [ngClass]="{ 'assistant-cb-label-left': labelSide === 'left' }">
-       <p-checkbox value="{{ key }}" styleClass="assistant-cb-{{ type }} assistant-cb-size-{{ size }}" ></p-checkbox>
-       <assistant-spacer size="m"></assistant-spacer>
-    </div>
- </div> 
- 
+   <div [ngClass]="{ 'assistant-cb-label-left': labelSide === 'left' }">
+      <p-checkbox value="{{ key }}" styleClass="assistant-cb-{{ type }} assistant-cb-size-{{ size }}" [formControl]="control"></p-checkbox>
+      <assistant-spacer size="m"></assistant-spacer>
+      <assistant-label size="{{ size }}" label="{{ label }}" type="{{ fontColor }}" [uppercase]="uppercase" [bold]="bold"></assistant-label>
+   </div>
+</div>

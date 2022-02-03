@@ -1,15 +1,9 @@
-import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { Component } from '@angular/core';
+import { AssistantCoreBaseComponent } from '../assistant-core-base/assistant-core-base.component';
 
 @Component({
   selector: 'assistant-icon',
   templateUrl: './assistant-icon.component.html',
   styleUrls: ['./assistant-icon.component.scss']
 })
-export class AssistantIconComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
-}
+export class AssistantIconComponent extends AssistantCoreBaseComponent { }

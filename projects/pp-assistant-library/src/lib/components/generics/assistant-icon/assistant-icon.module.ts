@@ -1,5 +1,5 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
 import { AssistantIconComponent } from './assistant-icon.component';
 
 
@@ -10,6 +10,6 @@ import { AssistantIconComponent } from './assistant-icon.component';
   imports: [
     CommonModule
   ],
-  exports:[AssistantIconComponent]
+  exports: [AssistantIconComponent]
 })
 export class AssistantIconModule { }

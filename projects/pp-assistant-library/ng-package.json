@@ -4,7 +4,10 @@
   "lib": {
     "entryFile": "src/public-api.ts",
     "umdModuleIds": {
-      "primeng/checkbox": "primeng/checkbox"
+      "primeng/checkbox": "primeng/checkbox",
+      "@ngx-translate/core":"@ngx-translate/core",
+      "@ngx-translate/http-loader":"@ngx-translate/http-loader",
+      "primeng/button": "primeng/button"
     }
   }
 }
