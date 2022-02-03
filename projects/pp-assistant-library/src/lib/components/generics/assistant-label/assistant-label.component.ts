@@ -6,4 +6,4 @@ import { AssistantCoreBaseComponent } from '../assistant-core-base/assistant-cor
    templateUrl: './assistant-label.component.html',
    styleUrls: ['./assistant-label.component.scss'],
 })
-export class AssistantLabelComponent extends AssistantCoreBaseComponent {}
+export class AssistantLabelComponent extends AssistantCoreBaseComponent {} 

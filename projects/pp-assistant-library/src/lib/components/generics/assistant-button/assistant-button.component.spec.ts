@@ -5,7 +5,7 @@ import { AssistantButtonComponent } from './assistant-button.component';
 describe('AssistantButtonComponent', () => {
   let component: AssistantButtonComponent;
   let fixture: ComponentFixture<AssistantButtonComponent>;
-
+ 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [ AssistantButtonComponent ]

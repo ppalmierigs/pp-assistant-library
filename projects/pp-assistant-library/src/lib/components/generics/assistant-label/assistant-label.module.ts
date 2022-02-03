@@ -13,4 +13,4 @@ import { AssistantLabelComponent } from './assistant-label.component';
   ],
   exports: [AssistantLabelComponent]
 })
-export class AssistantLabelModule { }
+export class AssistantLabelModule { } 

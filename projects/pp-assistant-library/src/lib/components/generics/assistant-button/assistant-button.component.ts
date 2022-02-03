@@ -6,4 +6,4 @@ import { AssistantCoreBaseComponent } from '../assistant-core-base/assistant-cor
    templateUrl: './assistant-button.component.html',
    styleUrls: ['./assistant-button.component.scss', './assistant-button-size.component.scss'],
 })
-export class AssistantButtonComponent extends AssistantCoreBaseComponent {}
+export class AssistantButtonComponent extends AssistantCoreBaseComponent {} 
